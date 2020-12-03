@@ -39,7 +39,7 @@ public class Sample07sssssssssssssssssssssssssssssssss {
 		
 		System.out.println("6번 컨슈머(참조메소드)");
 		Iterator iter3 = list.listIterator();		
-		iter3.forEachRemaining(System.out::println);
+		iter3.forEachRemaining(System.out::println); 
 
 		
 		//sort
