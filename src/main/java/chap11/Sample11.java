@@ -22,6 +22,9 @@ public class Sample11 {
 		trs.addAll(arr);
 		System.out.println(trs);
 		trs.add("기린");
+		trs.add("apple");
+		trs.add("banana");
+		trs.add("Oracle");
 		System.out.println(trs);
 		if(!trs.contains("토끼")) {
 			System.out.println("trs에 토끼가 없으므로 추가합니다.");
@@ -33,6 +36,7 @@ public class Sample11 {
 		System.out.println(trs.ceiling("툐"));
 		//위의 반대 작은값
 		System.out.println(trs.floor("툐"));
+		System.out.println(trs.floor("c"));
 		
 	}
 
