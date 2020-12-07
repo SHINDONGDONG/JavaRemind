@@ -1,6 +1,5 @@
 package chap12;
 
-import java.awt.Color;
 
 public class Sample02 {
 
